@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+myvenv/
+.env/
+.venv/
+
+# Environment / secrets
+.env
+*.key
+
+# Models / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Datasets
+data/
+datasets/
+
+# Outputs
+outputs/
+results/
+checkpoints/
+logs/
+
+# Cache
+.cache/
+huggingface/
+wandb/
+
+# IDE
+.vscode/
+.idea/
+
+# Mac
+.DS_Store
+
